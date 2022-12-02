@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as classnames from 'classnames';
 import { inject, observer } from 'mobx-react';
-
+//importing 
 const TodoItem = inject('TodoStore')(observer(props => {
   const TodoStore = props.TodoStore;
 
